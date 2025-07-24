@@ -3,8 +3,8 @@ produto_2 = 10
 
 print(produto_1 + produto_2)
 print(produto_1 - produto_2)
-print(produto_1 / produto_2)
-print(produto_1 // produto_2)
+print(produto_1 / produto_2)    # Divisão normal, resultado em float
+print(produto_1 // produto_2)   # Divisão inteira, converte o resultado em um valor inteiro
 print(produto_1 * produto_2)
 print(produto_1 % produto_2)
 print(produto_1 ** produto_2)

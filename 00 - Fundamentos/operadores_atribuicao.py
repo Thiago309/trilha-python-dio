@@ -10,7 +10,7 @@ print(saldo)
 saldo -= 5
 print(saldo)
 
-saldo //= 2
+saldo //= 2 # saldo = saldo // 2
 print(saldo)
 
 saldo /= 2

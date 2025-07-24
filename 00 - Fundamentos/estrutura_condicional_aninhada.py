@@ -1,6 +1,6 @@
 conta_normal = False
-conta_universitaria = False
-conta_especial = True
+conta_universitaria = True
+conta_especial = False
 
 saldo = 2000
 saque = 1500
@@ -18,7 +18,7 @@ if conta_normal:
 elif conta_universitaria:
 
     if saldo >= saque:
-        print("Saque realizado com sucesso!")
+        print("Saque realizado na conta universitaria com sucesso!")
     else:
         print("Saldo insuficiente!")
 

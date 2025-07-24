@@ -1,3 +1,4 @@
+"""
 while True:
     numero = int(input("Informe um número: "))
 
@@ -16,3 +17,12 @@ while True:
 #         continue
 
 #     print(numero, end=" ")
+"""
+
+for n in range(0, 201):
+
+    if n % 2 == 0 or n == 19:
+        continue
+
+    else:
+        print(n, end="..")
